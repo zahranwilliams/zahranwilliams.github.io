@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUSBAUNAIR - My Schedule</title>
+    <style>
+        body { margin: 0; font-family: 'Segoe UI', sans-serif; background: #f7f7f7; }
+        .sidebar {
+            width: 220px;
+            background: #29b6f6;
+            color: white;
+            height: 100vh;
+            position: fixed;
+            padding-top: 20px;
+        }
+        .sidebar img {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: block;
+            margin: 0 auto;
+        }
+        .sidebar h3, .sidebar p {
+            text-align: center;
+            margin: 10px 0;
+        }
+        .sidebar .menu {
+            margin-top: 30px;
+            padding-left: 20px;
+        }
+        .sidebar .menu div {
+            margin-bottom: 20px;
+            font-size: 16px;
+        }
+        .content {
+            margin-left: 220px;
+            padding: 20px;
+        }
+        .navbar {
+            background: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #ccc;
+        }
+        .navbar h4 {
+            margin: 0;
+        }
+        .table-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .btn {
+            background: #29b6f6;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <img src="https://via.placeholder.com/80" alt="Profile">
+        <h3>Zahran William Dzulfiqar</h3>
+        <p>participant</p>
+        <div class="menu">
+            <div>🏠 Home</div>
+            <div>📅 My Schedule</div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="navbar">
+            <h4>Welcome to the Pusat Bahasa dan Multibudaya Universitas Airlangga Registration Information System</h4>
+            <div><strong>Zahran William</strong> 🔒</div>
+        </div>
+        <div class="table-container">
+            <h3>My Schedule</h3>
+            <table>
+                <tr>
+                    <th>NO.</th>
+                    <th>REG. NUMBER</th>
+                    <th>NAME</th>
+                    <th>EVENT</th>
+                    <th>ROOM</th>
+                    <th>DATE</th>
+                    <th>START</th>
+                    <th>FINISH</th>
+                    <th>COST</th>
+                    <th>ACTION</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>000019031</td>
+                    <td>Zahran William</td>
+                    <td>Test UNAIR's ELPT ( OFFLINE )</td>
+                    <td>RUANG - C</td>
+                    <td>18-07-2025</td>
+                    <td>13:00:00</td>
+                    <td>16:00:00</td>
+                    <td>Rp 250.000,00</td>
+                    <td><button class="btn">Kartu Peserta</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
